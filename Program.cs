@@ -14,16 +14,19 @@ namespace HelloWorld // a namespace  - use for organization
       // Console.WriteLine("Hello World");
       // Console.WriteLine("The current time is " + DateTime.Now);
       // Create an instance ( js create new obj with new key word )
-      Program myProgram = new Program();
-      myProgram.Print();
+      // -------------------------------
+      // Program myProgram = new Program();
+      // myProgram.Print();
+      Console.WriteLine(args[0]);
+      // when you use two "--" between "dotnet run" and parameter So It gonna tell to the cli that the last value is a parameter and not a reserve keyword of dotnet
     }
 
-    void Print()
-    {
-      System.Console.WriteLine("Hello World With . System"); // fully qualified name
-      Console.WriteLine("Hello World");
-      Console.WriteLine("The current time is " + DateTime.Now);
-    }
+    // void Print()
+    // {
+    //   System.Console.WriteLine("Hello World With . System"); // fully qualified name
+    //   Console.WriteLine("Hello World");
+    //   Console.WriteLine("The current time is " + DateTime.Now);
+    // }
   }
 }
 
