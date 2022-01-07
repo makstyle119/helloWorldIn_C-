@@ -10,6 +10,18 @@ namespace HelloWorld // a namespace  - use for organization
   {
     static void Main(string[] args) // a method - contains a block of code
     {
+      int x = 5;
+      string name = Console.ReadLine();
+      // Variable - stores some value
+      // Identifier - what we call the variable
+      // convention - common way to doing thing
+      // Expression - evalutes to a value
+      // operator - it work on operands
+      // operand - the thing(s) that operator work on
+      // Literal - actual value
+      Console.WriteLine($"Hi {name}");
+      // Console.WriteLine("Hi " + name);
+      Console.WriteLine("first");
       // System.Console.WriteLine("Hello World With . System"); // fully qualified name
       // Console.WriteLine("Hello World");
       // Console.WriteLine("The current time is " + DateTime.Now);
@@ -17,7 +29,7 @@ namespace HelloWorld // a namespace  - use for organization
       // -------------------------------
       // Program myProgram = new Program();
       // myProgram.Print();
-      Console.WriteLine(args[0]);
+      // Console.WriteLine(args[0]);
       // when you use two "--" between "dotnet run" and parameter So It gonna tell to the cli that the last value is a parameter and not a reserve keyword of dotnet
     }
 
